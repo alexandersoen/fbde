@@ -2,7 +2,7 @@
 General code for "Fair Densities via Boosting the Sufficient Statistics of Exponential Families".
 
 ## Installation
-We configure using conda. `environment.yml` provides dependencies to run the code.
+We configure using conda `environment.yml` provides dependencies to run the code.
 Additional files need to be setup and downloaded for AIF360 datasets to work.
 
 ## Demo
@@ -24,3 +24,11 @@ Additionally, we provide `*_data.py` scripts to run evaluation on the raw data.
 
 One can use `compas` and `adult` for `--dataset` options, with `sex` or `race` as `--sattr`.
 Otherwise, one can use `german` and `dutch` for `--dataset` options, with `sex` or `age` as `--sattr`.
+
+## Citation
+
+*Fair Densities via Boosting the Sufficient Statistics of Exponential Families* <br>
+Alexander Soen, Hisham Husain, Richard Nock <br>
+International Conference on Machine Learning, ICML 2023
+
+**Please cite the corresponding paper when using the code**
